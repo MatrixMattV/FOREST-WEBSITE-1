@@ -1,0 +1,84 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    background: url("pexels-steffen-rieck-19841940.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+header {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 28px 100px;
+}
+
+h2 {
+    user-select: none;
+    font-size: 25px;
+    font-weight: 700;
+    color: aliceblue;
+    padding: 0 30px;
+    margin: 0 25px;
+}
+
+nav a {
+    text-decoration: none;
+    font-size: 20px;
+    color: aliceblue;
+    padding: 8px 16px;
+    font-weight: 600;
+    margin-right: 20px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+.content {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-content {
+    max-width: 1200px;
+    color: aliceblue;
+}
+
+.main-content h1 {
+    font-size: 3rem;
+    max-width: 600px;
+}
+
+.main-content p {
+    margin-top: 20px;
+    font-size: 20px;
+    max-width: 600px;
+}
+
+.main-content button {
+    margin-top: 20px;
+    border: none;
+    outline: none;
+    font-size: 22px;
+    font-weight: 600;
+    padding: 12px 28px;
+    border-radius: 8px;
+    cursor: pointer;
+    background: darkgreen;
+    color: aliceblue;
+    transition: .4s;
+}
+
+.main-content button:hover {
+    background: aliceblue;
+    color: darkgreen;
+}
